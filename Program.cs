@@ -14,8 +14,8 @@ if (args.Length > 0)
 }
 else
 {
-    commands = File.ReadAllLines("J:\\PracticePrograms\\RobotSimulator\\commands.txt");
-    //commands = File.ReadAllLines("C:\\commands.txt");
+    //commands = File.ReadAllLines("J:\\PracticePrograms\\RobotSimulator\\commands.txt");
+    commands = File.ReadAllLines("C:\\commands.txt");
 
 }
 
