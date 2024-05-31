@@ -1,7 +1,7 @@
 
 
 How to Run the RobotSimulator?
-Place the file in Commands.txt file in C:\Commands.txt or pass the file path in arguments.
+Place the file Commands.txt file in this path C:\Commands.txt or pass the file path in arguments.
 
 Test Cases :
 -----------------------------------------------
