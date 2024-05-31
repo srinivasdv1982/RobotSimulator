@@ -15,9 +15,15 @@ if (args.Length > 0)
 else
 {
     commands = File.ReadAllLines("J:\\PracticePrograms\\RobotSimulator\\commands.txt");
+    //commands = File.ReadAllLines("C:\\commands.txt");
+
 }
 
-foreach (var command in commands)
+commands.All(command =>
 {
     processor.ProcessCommand(command);
-}
+    return true;
+});
+
+
+

@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RobotSimulator.Models\RobotSimulator.Models.csproj" />
+    <ProjectReference Include="..\RobotSimulator.Services\RobotSimulator.Services.csproj" />
+  </ItemGroup>
+
 </Project>
