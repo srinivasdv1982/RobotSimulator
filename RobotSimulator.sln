@@ -3,11 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotSimulator", "RobotSimulator.csproj", "{4E61583B-9B34-42E5-8833-1720CE4649D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotSimulator", "RobotSimulator\RobotSimulator.csproj", "{4E61583B-9B34-42E5-8833-1720CE4649D0}"EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator.Models", "RobotSimulator.Models\RobotSimulator.Models.csproj", "{F5578089-0EE7-47D4-BD9D-F37B830BD985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator.Models", "..\RobotSimulator.Models\RobotSimulator.Models.csproj", "{F5578089-0EE7-47D4-BD9D-F37B830BD985}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator.Services", "..\RobotSimulator.Services\RobotSimulator.Services.csproj", "{2C5B3D10-217C-434C-9F8F-8B17DE3E69BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSimulator.Services", "RobotSimulator.Services\RobotSimulator.Services.csproj", "{2C5B3D10-217C-434C-9F8F-8B17DE3E69BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
